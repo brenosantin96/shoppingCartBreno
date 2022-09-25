@@ -36,7 +36,12 @@ npm i -D
 
 ### Installing <a name = "installing"></a>
 
-After doing all these code above, you should be able to access the system.
+After doing all these code above, you should be able to access the system, in the terminal type the following:
+
+```
+npm run dev
+```
+
 Look the port that is hosting the system in the cmd, then open the browser and type: http://localhost:PORT/
 
 
