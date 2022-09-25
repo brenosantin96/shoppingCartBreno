@@ -40,7 +40,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
                                 <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
                             </div>
                             <div className='d-flex align-items-center justify-content-center' style={{ gap: ".5rem" }}>
-                                <Button variant="danger" size="sm">Remove</Button>
+                                <Button onClick={()=> removeFromCart(id)} variant="danger" size="sm">Remove</Button>
                             </div>
                         </div>}
                 </div>
