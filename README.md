@@ -45,3 +45,9 @@ npm run dev
 Look the port that is hosting the system in the cmd, then open the browser and type: http://localhost:PORT/
 
 
+
+### Images 
+
+
+
+
